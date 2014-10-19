@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Collection of Futurama Quotes</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/main.css">
+  </head>
+  <body>
+  <div id="wrap">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div id="season"></div>
+          <div id="episode-name"></div>
+          <div id="episode-img"></div>
+        </div>
+        <div class="col-md-6">
+          <button type="button" class="quote-btn btn btn-primary" onclick="insertQuote()">
+            Generate me a Futurama quote!
+          </button>
+          <div id="quote"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="footer">
+      <div class="container">
+        <p>This site is hosted on <a href="https://github.com/igniting/futurama">Github</a>. Please feel free to contribute.</p>
+        <p> All the quotes are picked from <a href="http://en.wikiquote.org/wiki/Futurama">Wikiquote</a>. The images are taken from <a href="http://theinfosphere.org">theinfosphere</a>. I do not claim any copyright for the images/quotes.</p>
+      </div>
+    </div>
+    <script src="scripts/main.js"></script>
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-55893626-1');ga('send','pageview');
+    </script>
+  </body>
+</html>
